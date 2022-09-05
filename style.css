@@ -46,101 +46,130 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
 .wrap{
-    width: 1000px;
-    margin: 0 auto;
+    width: 1224px;
+    margin:0 auto;
 }
 .header h1{
-    margin: 0 auto;
-    width:600px;
-    font-size: 24px;
-    line-height: 1.5;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding-top: 27px;
-    padding-bottom: 20px;
+    font-size: 80px;
     text-align: left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-bottom:2px solid #000000;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #000000; 
 }
-.content img{
-    width: 175px;
-    padding-left: 200px;
-    padding-top: 25px;
-}
-.content h2{
-    margin: 0 auto;
-    width:600px;
-    padding-top: 25px;
-    padding-bottom: 5px;
+h2{
+    font-size: 32px;
     font-weight: bold;
-    border-bottom: 1px solid #808080;
+    margin-top: 56px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000000;
 }
-.content h2 span{
-    color: #a30d0d;
+span{
+    font-size: 24px;
+    color: #A00404;
 }
-.content p {
-    margin: 0 auto;
-    width:600px;
-    padding-top: 8px;
-    font-size: 10px;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    color: #404040;
+.content .profile1{
+    padding-top: 16px;
+    padding-bottom: 24px;
 }
-.content .name{
-    padding-bottom: 20px;
-}
-.content .experience{
-    padding-bottom: 44px;
+.education li{
+    padding-top: 16px;
 }
 .skills{
-    margin: 0 auto;
-    width:600px;
-    padding-top: 38px;
+    width: 1200px;
+    height:496px;
     background: #415165;
+    margin-top: 72px;
 }
 .skills h3{
+    margin: 0 auto;
+    width: 996px;
     text-align: center;
-    color: #b4bac2;
-    padding-bottom: 10px;
-    border-bottom: 1px solid  #b4bac2;
+    padding-top: 32px;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #FFFFFF;
 }
-.skills p{
-    text-align: center;
-    color: #b4bac2;
-    border-left: 1px solid  #b4bac2;
+.skills ul{
+    width:300px;
+    height: 327px;
+    margin:0 auto;
+    padding-top: 40px;
+    margin-bottom: 12px;
+    border-left: 1px solid #96A9C4;
 }
-.skills .language{
-    padding-bottom: 30px;
+.skills li{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 24px;
+    
 }
-.workexp .intern{
+.experience,ul,h3{
+    padding-left: 30px;
+}
+.experience ul{
+    border-left: 1px solid #96A9C4;
+}
+.experience li h4{
+    padding-top: 16px;
+    font-size: 24px;
     font-weight: bold;
 }
-.workexp .logo{
-    width:50px;
+.experience li img{
+    padding-top: 8px;
 }
-.workexp .simtree{
-    width:40px;
+.experience li p{
+    padding-right: 680px;
+    line-height: 1.5;
+    padding-top: 8px;
+}
+.experience .hightlight{
+    padding-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
 }
 .footer{
     margin: 0 auto;
-    width:1000px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background:#415165;
-    text-align: center;
+    width: 1500px;
+    background: #415165;
+    margin-top: 72px;
 }
 .footer h3{
-    padding-bottom: 10px;
-    color: #b4bac2;
-    border-bottom: 1px solid  #b4bac2;
+    margin: 0 auto;
+    width:996px;
+    padding-top: 24px;
+    text-align: center;
+    font-size: 32px;
+    color:#FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 16px;
 }
-.footer p{
-    color: #b4bac2;
+.footer ul,a{
+    text-align: center;
+    padding-top: 40px;
+    color:#FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
 }
-.footer .pic{
-    display: flex;
-    align-items: center;
-    width: 20px;
+.footer ul li{
+    padding-bottom: 16px;
+}
+.footer .icon {
+    text-align: center;
+    padding-bottom: 48px;
+    
+}
+.footer .icon a{
+    padding-left: 24px;
+   
+}
+    
+a:hover{
+    opacity: 0.6;;
 }
